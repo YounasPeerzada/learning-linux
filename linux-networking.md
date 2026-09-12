@@ -935,37 +935,3 @@ When working with a Linux server, remember this order:
 8. Firewall
 ```
 
-Useful first commands:
-
-```bash
-ip addr
-ip route
-ip link
-ip neigh
-ss -tuln
-ping 8.8.8.8
-ping google.com
-cat /etc/resolv.conf
-sudo ufw status
-```
-
-## Conclusion
-
-The most important Linux networking tools to learn first are:
-
-```text
-ip
-ss
-ping
-dig
-ip route
-ip neigh
-nmcli
-ssh
-scp
-curl
-tcpdump
-ufw
-```
-
-These commands cover most everyday tasks involving **network configuration, connectivity testing, remote servers, ports, DNS, routing, SSH, and troubleshooting**.
